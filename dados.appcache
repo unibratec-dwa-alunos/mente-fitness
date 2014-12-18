@@ -1,0 +1,20 @@
+CACHE MANIFEST
+
+index.html
+js/index.js
+js/dicas.js
+js/nutricao.js
+js/exercicios.js
+js/moda.js
+css/index.css
+php/inc.conexao.php
+php/dicas.php
+php/nutricao.php
+php/exercicios.php
+php/moda.php
+iscroll/iscroll.js
+imagens/logo-mente-fitness.jpg
+
+NETWORK:
+http://fonts.googleapis.com/css?family=Ubuntu:400,300italic,400italic,300,500,500italic,700,700italic' rel='stylesheet' type='text/css
+http://code.jquery.com/jquery-2.1.1.min.js

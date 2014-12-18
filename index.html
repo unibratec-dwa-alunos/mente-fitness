@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" manifest="dados.appcache">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+	<title>Mente Fitness</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300italic,400italic,300,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/index.css" />
+
+</head>
+
+<body onload="loaded()">
+
+	<div id="header">
+		<img src="imagens/logo-mente-fitness.jpg" alt="logo mente fitness" title="Mente Fitness" />
+	</div><!-- /header -->
+
+	<nav>
+		<ul id="menu">
+			<li id="dicas">Dicas</li>
+			<li id="nutricao">Nutri&ccedil;&atilde;o</li>
+			<li id="exercicios">Exerc&iacute;cios</li>
+			<li id="moda">Moda</li>
+		</ul>
+	</nav>
+
+	<div id="conteudo">
+
+		<div id="scroller">
+
+			<h2></h2><!-- categoria -->
+
+			<ul></ul><!-- ajax -->
+
+		</div><!-- /scroller -->
+
+	</div><!-- /conteudo -->
+
+	<footer>
+		<p>
+			Mente Fitness &copy; 2014. Desenvolvido por <a href="http://www.google.com.br" target="_blank">WebAppsMPR</a>.
+		</p>
+	</footer>
+
+	<!-- iscroll -->
+	<script type="text/javascript" src="iscroll/iscroll.js"></script>
+	<script type="text/javascript">
+		var myScroll;
+		function loaded () {
+			myScroll = new IScroll('#conteudo', { mouseWheel: true });
+		}
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	</script>
+
+	<!-- arquivos JS -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/dicas.js"></script>
+	<script type="text/javascript" src="js/nutricao.js"></script>
+	<script type="text/javascript" src="js/exercicios.js"></script>
+	<script type="text/javascript" src="js/moda.js"></script>
+
+</body>
+
+</html>

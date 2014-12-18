@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* topo */
+
+#header {
+	height: 150px;
+	left: 0;
+	line-height: 100px;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+#header img {
+	height: 100px;
+	margin-top: 25px;
+}
+
+#menu {
+	border-bottom: 1px solid #000;
+	font-family: 'Ubuntu', sans-serif;
+	height: 164px;
+	left: 0;
+	position: fixed;
+	top: 150px;
+	width: 100%;
+	z-index: 2;
+}
+
+#menu li {
+	background-color: #5aac7e;
+	border-top: 1px solid #000;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#menu li:hover,
+#menu li.on {
+	background-color: #3f5c72;
+}
+
+/* conteudo */
+
+#conteudo {
+	bottom: 50px;
+	left: 0;
+	overflow: hidden;
+	padding: 30px 0 20px 0;
+	position: absolute;
+	top: 315px;
+	width: 100%;
+	z-index: 1;
+}
+
+#scroller {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+#scroller ul {
+	width: 100%;
+}
+
+#scroller li {
+	border-bottom: 1px dotted #ccc;
+	border-top: 1px dotted #ccc;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+
+#scroller h3 {
+	color: #3f5c72;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#scroller h4 {
+	color: #666;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+#scroller p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+#scroller a {
+	color: #666;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#scroller a:hover {
+	text-decoration: underline;
+}
+
+#conteudo h2 {
+	color: #5aac7e;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* rodape */
+
+footer {
+	background-color: #3f5c72;
+	color: #fff;
+	bottom: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	height: 50px;
+	left: 0;
+	line-height: 50px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 2;
+}
+
+footer a {
+	color: #fff;
+}
